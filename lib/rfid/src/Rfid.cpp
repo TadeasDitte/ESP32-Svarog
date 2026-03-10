@@ -1,5 +1,7 @@
-#include "rfid.h"
+#include "Rfid.h"
 
-void initRfid() {
-  
+void Rfid::begin()
+{
+    pinMode(RX_PIN, INPUT);
+    pinMode(TX_PIN, OUTPUT);
 }
