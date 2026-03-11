@@ -1,5 +1,5 @@
 #include <Rfid.h>
-
+#include <WiFi.h>
 // put function declarations here:
 int myFunction(int, int);
 
